@@ -43,17 +43,17 @@
 //
 // Servos
 //
-#define SERVO0_PIN         11
+#define SERVO0_PIN         12 // untested
 
 //
 // Limit Switches
 //
 #define X_MIN_PIN          22
-#define X_MAX_PIN          24
+// #define X_MAX_PIN          24
 #define Y_MIN_PIN          26
-#define Y_MAX_PIN          28
+// #define Y_MAX_PIN          28
 #define Z_MIN_PIN          30
-#define Z_MAX_PIN          32
+// #define Z_MAX_PIN          32
 
 //
 // Z Probe (when not Z_MIN_PIN)
@@ -96,8 +96,8 @@
 // Heaters / Fans
 //
 #define HEATER_0_PIN        2
-#define HEATER_1_PIN        3
-#define HEATER_BED_PIN      4
+#define HEATER_1_PIN        4
+#define HEATER_BED_PIN      3
 
 #ifndef FAN_PIN
   #define FAN_PIN           7
